@@ -1,4 +1,5 @@
 import React from 'react';
+import './index.css';
 
 const ReviewCard = props => {
   const { image, title, subtitle, quote } = props;
@@ -13,7 +14,7 @@ const ReviewCard = props => {
           <p>{subtitle}</p>
         </div>
       </div>
-      <div className="reviewCard__quote">{quote}</div>
+      <p className="reviewCard__quote">“{quote}”</p>
     </div>
   );
 };

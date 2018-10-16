@@ -1,0 +1,31 @@
+.reviewCard {
+  width: 300px;
+  border: 1px solid grey;
+}
+.reviewCard__header {
+  display: flex;
+}
+.reviewCard__image {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+}
+.reviewCard__image img {
+  width: 100%;
+  border-radius: 50%;
+}
+.reviewCard__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 10px 10px 0;
+}
+.reviewCard__title h3 {
+  margin: 0;
+}
+.reviewCard__title p {
+  margin: 0;
+}
+.reviewCard__quote {
+  margin: 0 10px 10px;
+}

@@ -7,7 +7,13 @@ import './index.css';
 class App extends Component {
   render() {
     const reviewCards = reviews.map(({ image, title, subtitle, quote }) => (
-      <ReviewCard key={title} image={image} title={title} subtitle={subtitle} quote={quote} />
+      <ReviewCard
+        key={title}
+        image={image}
+        title={title}
+        subtitle={subtitle}
+        quote={quote}
+      />
     ));
 
     return (
@@ -15,12 +21,7 @@ class App extends Component {
         <header className="header">
           <h1 className="name">Don Raleigh</h1>
           <p className="job">Piano Tuner</p>
-          <ul className="locations">
-            <li>Carrboro</li>
-            <li>Chapel Hill</li>
-            <li>Durham</li>
-            <li>Raleigh</li>
-          </ul>
+          <p className="locations">Carrboro • Chapel Hill • Durham • Raleigh</p>
         </header>
         <div className="bio">
           <div className="imageWrapper">
