@@ -1,8 +1,15 @@
 import React, { Component } from 'react';
+import CardScroll from '../CardScroll';
+import ReviewCard from '../ReviewCard';
+import reviews from '../data/reviews.json';
 import './index.css';
 
 class App extends Component {
   render() {
+    const reviewCards = reviews.map(({ image, title, subtitle, quote }) => (
+      <ReviewCard key={title} image={image} title={title} subtitle={subtitle} quote={quote} />
+    ));
+
     return (
       <div className="App">
         <header className="header">
@@ -26,7 +33,7 @@ class App extends Component {
         </div>
         <div className="reviews">
           <h2>Reviews</h2>
-          <p>COMPONENT PLACEHOLDER</p>
+          <CardScroll children={reviewCards} />
         </div>
         <div className="contact">
           <h2>Contact</h2>

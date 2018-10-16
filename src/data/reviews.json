@@ -1,0 +1,38 @@
+[
+  {
+    "image": "don.jpg",
+    "title": "Alice Aimes",
+    "subtitle": "Atlanta",
+    "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "image": "don.jpg",
+    "title": "Betsy Bamboo",
+    "subtitle": "Boston",
+    "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "image": "don.jpg",
+    "title": "Cathy Cardinal",
+    "subtitle": "Carrboro",
+    "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "image": "don.jpg",
+    "title": "Dianne Delphi",
+    "subtitle": "Detroit",
+    "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "image": "don.jpg",
+    "title": "Evelyn Einstein",
+    "subtitle": "Egypt",
+    "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "image": "don.jpg",
+    "title": "Glorio Gambino",
+    "subtitle": "Greensboro",
+    "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  }
+]
