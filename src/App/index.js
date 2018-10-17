@@ -2,8 +2,11 @@ import React, { Component } from 'react';
 import CardScroll from '../CardScroll';
 import ReviewCard from '../ReviewCard';
 import PriceCard from '../PriceCard';
+import LabeledButton from '../LabeledButton';
 import reviewsData from '../data/reviews.json';
 import pricesData from '../data/prices.json';
+import mobileIcon from '../icons/mobile-icon.svg';
+import emailIcon from '../icons/email-icon.svg';
 import './index.css';
 
 class App extends Component {
@@ -41,7 +44,20 @@ class App extends Component {
             For any questions, or to set up an appointment, please email, text,
             or call me.
           </p>
-          <p>COMPONENT PLACEHOLDER</p>
+          <div>
+            <LabeledButton
+              icon={mobileIcon}
+              iconAlt="mobile"
+              label="919 555 1234"
+              link="tel:+19199231234"
+            />
+            <LabeledButton
+              icon={emailIcon}
+              iconAlt="email"
+              label="bdraleigh@gmail.com"
+              link="mailto:bdraleigh@gmail.com"
+            />
+          </div>
         </div>
         <div className="prices">
           <h2>Prices</h2>

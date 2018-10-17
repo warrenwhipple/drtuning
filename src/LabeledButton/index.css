@@ -1,0 +1,22 @@
+.LabeledButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.LabeledButton a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  border: solid grey 1px;
+  border-radius: 50%;
+}
+.LabeledButton img {
+  max-width: 30px;
+  max-height: 30px;
+}
+.LabeledButton__label {
+  margin-top: 10px;
+  font-size: 12px;
+}
