@@ -1,3 +1,9 @@
+.App {
+  text-align: center;
+}
+.job, h2 {
+  font-family: 'Limelight', sans-serif;
+}
 .bio .imageWrapper img {
   max-width: 200px;
 }
