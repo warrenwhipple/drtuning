@@ -1,0 +1,21 @@
+.CardScroll {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.CardScroll::-webkit-scrollbar {
+  display: none;
+}
+.CardScroll > * {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+.CardScroll__leadingSpacer {
+  width: 10px;
+  margin-right: 0;
+}
+.CardScroll__trailingSpacer {
+  width: 10px;
+  margin-left: -20px;
+  margin-right: 0;
+}

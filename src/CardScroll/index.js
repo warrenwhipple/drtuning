@@ -1,7 +1,12 @@
 import React from 'react';
+import './index.css';
 
-const CardScroll = props => {
-  return <div className="CardScroll">{props.children}</div>;
-};
+const CardScroll = props => (
+  <div className="CardScroll">
+    <div className="CardScroll__leadingSpacer" />
+    {props.children}
+    <div className="CardScroll__trailingSpacer" />
+  </div>
+);
 
 export default CardScroll;
