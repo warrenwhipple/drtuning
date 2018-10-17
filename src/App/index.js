@@ -7,6 +7,8 @@ import reviewsData from '../data/reviews.json';
 import pricesData from '../data/prices.json';
 import mobileIcon from '../icons/mobile-icon.svg';
 import emailIcon from '../icons/email-icon.svg';
+import googleIcon from '../icons/google-icon.svg';
+import yelpIcon from '../icons/yelp-icon.svg';
 import './index.css';
 
 class App extends Component {
@@ -44,7 +46,7 @@ class App extends Component {
             For any questions, or to set up an appointment, please email, text,
             or call me.
           </p>
-          <div>
+          <div className="contactButtonsWrapper">
             <LabeledButton
               icon={mobileIcon}
               iconAlt="mobile"
@@ -81,8 +83,35 @@ class App extends Component {
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
-        <div className="links">
-          <p>COMPONENT PLACEHOLDER</p>
+        <div className="linkButtonsWrapper">
+            <LabeledButton
+              icon={mobileIcon}
+              iconAlt="text or call"
+              label="Text / Call"
+              link="tel:+19199231234"
+              small
+            />
+            <LabeledButton
+              icon={emailIcon}
+              iconAlt="email"
+              label="Email"
+              link="mailto:bdraleigh@gmail.com"
+              small
+            />
+            <LabeledButton
+              icon={googleIcon}
+              iconAlt="Google Maps"
+              label="Maps"
+              link="https://maps.google.com/maps?cid=9937652089938202035"
+              small
+            />
+            <LabeledButton
+              icon={yelpIcon}
+              iconAlt="Yelp"
+              label="Yelp"
+              link="https://www.yelp.com/biz/don-raleigh-piano-tuning-carrboro"
+              small
+            />
         </div>
       </div>
     );

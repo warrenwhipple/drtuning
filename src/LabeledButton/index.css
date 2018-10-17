@@ -2,6 +2,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 70px;
+}
+.LabeledButton.LabeledButton--small {
+  width: 40px;
 }
 .LabeledButton a {
   display: flex;
@@ -11,12 +15,26 @@
   height: 70px;
   border: solid grey 1px;
   border-radius: 50%;
+  box-sizing: border-box;
+}
+.LabeledButton.LabeledButton--small a {
+  width: 40px;
+  height: 40px;
 }
 .LabeledButton img {
   max-width: 30px;
   max-height: 30px;
 }
+.LabeledButton.LabeledButton--small img {
+  max-width: 20px;
+  max-height: 20px;
+}
 .LabeledButton__label {
+  white-space: nowrap;
   margin-top: 10px;
-  font-size: 12px;
+  font-size: 14px;
+}
+.LabeledButton.LabeledButton--small .LabeledButton__label {
+  margin-top: 6px;
+  font-size: 11px;
 }

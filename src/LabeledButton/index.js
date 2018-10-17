@@ -2,9 +2,10 @@ import React from 'react';
 import './index.css';
 
 const LabeledButton = props => {
-  const { icon, iconAlt, label, link } = props;
+  const { icon, iconAlt, label, link, small } = props;
+  const className = `LabeledButton${small ? ' LabeledButton--small' : ''}`;
   return (
-    <div className="LabeledButton">
+    <div className={className}>
       <a href={link}>
         <img src={icon} alt={iconAlt} />
       </a>
