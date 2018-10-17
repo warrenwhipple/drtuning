@@ -1,19 +1,18 @@
 import React, { Component } from 'react';
 import CardScroll from '../CardScroll';
 import ReviewCard from '../ReviewCard';
-import reviews from '../data/reviews.json';
+import PriceCard from '../PriceCard';
+import reviewsData from '../data/reviews.json';
+import pricesData from '../data/prices.json';
 import './index.css';
 
 class App extends Component {
   render() {
-    const reviewCards = reviews.map(({ image, title, subtitle, quote }) => (
-      <ReviewCard
-        key={title}
-        image={image}
-        title={title}
-        subtitle={subtitle}
-        quote={quote}
-      />
+    const reviewCards = reviewsData.map(reviewData => (
+      <ReviewCard reviewData={reviewData} />
+    ));
+    const priceCards = pricesData.map(priceData => (
+      <PriceCard priceData={priceData} />
     ));
 
     return (
@@ -46,7 +45,7 @@ class App extends Component {
         </div>
         <div className="prices">
           <h2>Prices</h2>
-          <p>COMPONENT PLACEHOLDER</p>
+          <CardScroll children={priceCards} />
         </div>
         <div className="questions">
           <h2>Questions</h2>

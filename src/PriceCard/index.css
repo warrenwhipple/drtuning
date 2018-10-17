@@ -1,0 +1,25 @@
+.PriceCard {
+  width: 120px;
+  border: 1px solid grey;
+  text-align: center;
+}
+.PriceCard__service {
+  white-space: pre-line;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 60px;
+}
+.PriceCard__price {
+  font-size: 32px;
+}
+.PriceCard__price span {
+  font-size: 24px;
+}
+.PriceCard__time {
+  white-space: pre-line;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 60px;
+}

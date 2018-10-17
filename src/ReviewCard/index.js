@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css';
 
 const ReviewCard = props => {
-  const { image, title, subtitle, quote } = props;
+  const { image, title, subtitle, quote } = props.reviewData;
   return (
     <div className="ReviewCard">
       <div className="ReviewCard__header">

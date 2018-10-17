@@ -1,0 +1,23 @@
+[
+  {
+    "service": "Full range\nfine tuning",
+    "price": "$130",
+    "time": "~2.5 hrs"
+  },
+  {
+    "service": "Pitch raise",
+    "price": "$130",
+    "time": "~2.5 hrs"
+  },
+  {
+    "service": "Pitch raise\n+ fine tuning",
+    "price": "$200",
+    "time": "2 visits\n1 week apart"
+  },
+  {
+    "service": "Repairs",
+    "price": "$40",
+    "priceModifier": "/hr",
+    "time": ""
+  }
+]
