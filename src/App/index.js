@@ -46,7 +46,7 @@ class App extends Component {
             For any questions, or to set up an appointment, please email, text,
             or call me.
           </p>
-          <div className="contactButtonsWrapper">
+          <div className="buttonsWrapper">
             <LabeledButton
               icon={mobileIcon}
               iconAlt="mobile"
@@ -83,7 +83,7 @@ class App extends Component {
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
-        <div className="linkButtonsWrapper">
+        <div className="links">
             <LabeledButton
               icon={mobileIcon}
               iconAlt="text or call"

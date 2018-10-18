@@ -1,5 +1,5 @@
 .PriceCard {
-  width: 120px;
+  width: 124px;
   border: 1px solid grey;
   text-align: center;
 }
@@ -9,6 +9,7 @@
   flex-direction: column;
   justify-content: center;
   height: 60px;
+  font-size: 14px;
 }
 .PriceCard__price {
   font-size: 32px;
@@ -22,4 +23,5 @@
   flex-direction: column;
   justify-content: center;
   height: 60px;
+  font-size: 14px;
 }

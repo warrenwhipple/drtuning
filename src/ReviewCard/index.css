@@ -1,5 +1,5 @@
 .ReviewCard {
-  width: 300px;
+  width: 270px;
   border: 1px solid grey;
   text-align: left;
 }
@@ -22,11 +22,17 @@
   margin: 10px 10px 10px 0;
 }
 .ReviewCard__title h3 {
+  font-size: 16px;
   margin: 0;
 }
 .ReviewCard__title p {
   margin: 0;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: grey;
 }
 .ReviewCard__quote {
   margin: 0 10px 10px;
+  font-size: 14px;
 }

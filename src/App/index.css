@@ -1,17 +1,81 @@
 .App {
   text-align: center;
+  font-size: 16;
 }
-.job, h2 {
+.job,
+h2 {
   font-family: 'Limelight', sans-serif;
+  text-transform: uppercase;
 }
-.bio .imageWrapper img {
-  max-width: 200px;
+h2 {
+  margin: 40px 0 10px;
 }
-.contactButtonsWrapper {
+h2::before {
+  content: "• • • "
+}
+h2::after {
+  content: " • • •"
+}
+
+.header {
+  margin-top: 20px;
+}
+.header .name {
+  font-size: 24px;
+}
+.header .job {
+  font-size: 34px;
+  margin-top: 4px;
+}
+.header .locations {
+  margin-top: 6px;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+.bio .imageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: solid grey 2px;
+}
+.bio img {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+}
+.bio .text {
+  margin: 10px 20px 0;
+}
+
+.contact p {
+  margin: 0 20px 0;
+}
+.contact .buttonsWrapper {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 15px;
 }
-.linkButtonsWrapper {
+
+.questions h2 {
+  margin-bottom: -8px;
+}
+.questions .question {
+  margin: 20px 20px 0;
+  font-weight: 700;
+}
+.questions .answer {
+  margin: 6px 20px 0;
+}
+
+.links {
   display: flex;
   justify-content: space-evenly;
   margin: 40px 0 40px;
