@@ -14,10 +14,10 @@ import './index.css';
 class App extends Component {
   render() {
     const reviewCards = reviewsData.map(reviewData => (
-      <ReviewCard reviewData={reviewData} />
+      <ReviewCard key={reviewData.title} reviewData={reviewData} />
     ));
     const priceCards = pricesData.map(priceData => (
-      <PriceCard priceData={priceData} />
+      <PriceCard key={priceData.service} priceData={priceData} />
     ));
 
     return (
