@@ -5,10 +5,10 @@ import PriceCard from '../PriceCard';
 import LabeledButton from '../LabeledButton';
 import reviewsData from '../data/reviews.json';
 import pricesData from '../data/prices.json';
-import mobileIcon from '../icons/mobile-icon.svg';
-import emailIcon from '../icons/email-icon.svg';
-import googleIcon from '../icons/google-icon.svg';
-import yelpIcon from '../icons/yelp-icon.svg';
+import mobileIcon from '../images/mobile-icon.svg';
+import emailIcon from '../images/email-icon.svg';
+import googleIcon from '../images/google-icon.svg';
+import yelpIcon from '../images/yelp-icon.svg';
 import './index.css';
 
 class App extends Component {
@@ -84,34 +84,34 @@ class App extends Component {
           </p>
         </div>
         <div className="links">
-            <LabeledButton
-              icon={mobileIcon}
-              iconAlt="text or call"
-              label="Text / Call"
-              link="tel:+19199231234"
-              small
-            />
-            <LabeledButton
-              icon={emailIcon}
-              iconAlt="email"
-              label="Email"
-              link="mailto:bdraleigh@gmail.com"
-              small
-            />
-            <LabeledButton
-              icon={googleIcon}
-              iconAlt="Google Maps"
-              label="Maps"
-              link="https://maps.google.com/maps?cid=9937652089938202035"
-              small
-            />
-            <LabeledButton
-              icon={yelpIcon}
-              iconAlt="Yelp"
-              label="Yelp"
-              link="https://www.yelp.com/biz/don-raleigh-piano-tuning-carrboro"
-              small
-            />
+          <LabeledButton
+            icon={mobileIcon}
+            iconAlt="text or call"
+            label="Text / Call"
+            link="tel:+19199231234"
+            small
+          />
+          <LabeledButton
+            icon={emailIcon}
+            iconAlt="email"
+            label="Email"
+            link="mailto:bdraleigh@gmail.com"
+            small
+          />
+          <LabeledButton
+            icon={googleIcon}
+            iconAlt="Google Maps"
+            label="Maps"
+            link="https://maps.google.com/maps?cid=9937652089938202035"
+            small
+          />
+          <LabeledButton
+            icon={yelpIcon}
+            iconAlt="Yelp"
+            label="Yelp"
+            link="https://www.yelp.com/biz/don-raleigh-piano-tuning-carrboro"
+            small
+          />
         </div>
       </div>
     );

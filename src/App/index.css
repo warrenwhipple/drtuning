@@ -1,6 +1,12 @@
 .App {
   text-align: center;
   font-size: 16;
+  background-image: url(../images/corner-flourish-tl.svg),
+    url(../images/corner-flourish-tr.svg), url(../images/corner-flourish-bl.svg),
+    url(../images/corner-flourish-br.svg);
+  background-size: 60px 60px, 60px 60px, 60px 60px, 60px 60px;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: top left, top right, bottom left, bottom right;
 }
 .job,
 h2 {
@@ -11,14 +17,14 @@ h2 {
   margin: 40px 0 10px;
 }
 h2::before {
-  content: "• • • "
+  content: '• • • ';
 }
 h2::after {
-  content: " • • •"
+  content: ' • • •';
 }
 
 .header {
-  margin-top: 20px;
+  padding-top: 20px;
 }
 .header .name {
   font-size: 24px;
@@ -78,5 +84,6 @@ h2::after {
 .links {
   display: flex;
   justify-content: space-evenly;
-  margin: 40px 0 40px;
+  margin-top: 40px;
+  padding-bottom: 40px;
 }
