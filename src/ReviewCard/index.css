@@ -1,6 +1,6 @@
 .ReviewCard {
   width: 270px;
-  border: 1px solid grey;
+  border: 1px solid #957C48;
   text-align: left;
 }
 .ReviewCard__header {
@@ -30,7 +30,6 @@
   font-size: 11px;
   text-transform: uppercase;
   font-weight: 700;
-  color: grey;
 }
 .ReviewCard__quote {
   margin: 0 10px 10px;

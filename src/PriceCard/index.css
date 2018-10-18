@@ -1,6 +1,6 @@
 .PriceCard {
   width: 124px;
-  border: 1px solid grey;
+  border: 1px solid #957C48;
   text-align: center;
 }
 .PriceCard__service {
