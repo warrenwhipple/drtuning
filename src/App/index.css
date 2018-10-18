@@ -43,6 +43,14 @@ h2::after {
   align-items: center;
   margin-top: 40px;
 }
+.bio .sideFlourishWrapper {
+  display: flex;
+  align-items: center;
+}
+.bio .sideFlourish {
+  width: 60px;
+  height: 60px;
+}
 .bio .imageWrapper {
   display: flex;
   justify-content: center;
@@ -52,7 +60,7 @@ h2::after {
   border-radius: 50%;
   border: solid grey 2px;
 }
-.bio img {
+.bio .imageWrapper img {
   width: 128px;
   height: 128px;
   border-radius: 50%;

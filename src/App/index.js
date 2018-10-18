@@ -9,6 +9,8 @@ import mobileIcon from '../images/mobile-icon.svg';
 import emailIcon from '../images/email-icon.svg';
 import googleIcon from '../images/google-icon.svg';
 import yelpIcon from '../images/yelp-icon.svg';
+import sideFlourishL from '../images/side-flourish-l.svg';
+import sideFlourishR from '../images/side-flourish-r.svg';
 import './index.css';
 
 class App extends Component {
@@ -28,8 +30,12 @@ class App extends Component {
           <p className="locations">Carrboro • Chapel Hill • Durham • Raleigh</p>
         </header>
         <div className="bio">
-          <div className="imageWrapper">
-            <img src="don.jpg" alt="Don Raleigh" />
+          <div className="sideFlourishWrapper">
+            <img src={sideFlourishL} className="sideFlourish L" alt="" />
+            <div className="imageWrapper">
+              <img src="don.jpg" alt="Don Raleigh" />
+            </div>
+            <img src={sideFlourishR} className="sideFlourish R" alt="" />
           </div>
           <p className="text">
             I’ve worked in the professional music world more than 30 years as a
