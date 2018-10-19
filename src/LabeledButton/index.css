@@ -22,10 +22,12 @@
   height: 40px;
 }
 .LabeledButton img {
+  width: 100%;
   max-width: 30px;
   max-height: 30px;
 }
 .LabeledButton.LabeledButton--small img {
+  width: 100%;
   max-width: 20px;
   max-height: 20px;
 }
