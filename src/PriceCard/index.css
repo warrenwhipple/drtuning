@@ -26,3 +26,23 @@
   height: 60px;
   font-size: 14px;
 }
+
+@media only screen and (min-width: 1025px) {
+  .PriceCard {
+    width: 140px;
+  }
+  .PriceCard__service {
+    height: 70px;
+    font-size: 18px;
+  }
+  .PriceCard__price {
+    font-size: 40px;
+  }
+  .PriceCard__price span {
+    font-size: 28px;
+  }
+  .PriceCard__time {
+    height: 70px;
+    font-size: 18px;
+  }
+}

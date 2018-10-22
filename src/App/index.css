@@ -43,7 +43,7 @@ h2::after {
 }
 .paraWrapper .para,
 .paraWrapper .question,
-.paraWrapper .answer  {
+.paraWrapper .answer {
   margin-left: auto;
   margin-right: auto;
   max-width: 30em;
@@ -105,4 +105,59 @@ h2::after {
   justify-content: space-evenly;
   margin-top: 40px;
   padding-bottom: 40px;
+}
+
+@media only screen and (min-width: 1025px) {
+  .App {
+    font-size: 18px;
+    background-size: 120px 120px, 120px 120px, 120px 120px, 120px 120px;
+  }
+  h2 {
+    font-size: 32px;
+    margin: 60px 0 15px;
+  }
+  .header {
+    padding-top: 60px;
+  }
+  .header .name {
+    font-size: 36px;
+  }
+  .header .job {
+    font-size: 52px;
+    margin-top: 6px;
+  }
+  .header .locations {
+    margin-top: 8px;
+    font-size: 24px;
+  }
+  .bio {
+    margin-top: 30px;
+  }
+  .bio .flourishWrapper {
+    flex: 0 1 120px;
+  }
+  .bio .profileImage {
+    max-width: 240px;
+    padding: 4px;
+    border-radius: 50%;
+  }
+  .bio .paraWrapper {
+    margin-top: 20px;
+  }
+  .questions h2 {
+    margin-bottom: -12px;
+  }
+  .questions .question {
+    margin-top: 30px;
+  }
+  .questions .answer {
+    margin-top: 10px;
+  }
+  .links {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px auto 0;
+    max-width: 75%;
+    padding-bottom: 60px;
+  }  
 }

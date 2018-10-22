@@ -13,7 +13,7 @@
   justify-content: center;
   width: 70px;
   height: 70px;
-  border: solid #957C48 1px;
+  border: solid #957c48 1px;
   border-radius: 50%;
   box-sizing: border-box;
 }
@@ -39,4 +39,37 @@
 .LabeledButton.LabeledButton--small .LabeledButton__label {
   margin-top: 6px;
   font-size: 11px;
+}
+
+@media only screen and (min-width: 1025px) {
+  .LabeledButton {
+    width: 100px;
+  }
+  .LabeledButton.LabeledButton--small {
+    width: 60px;
+  }
+  .LabeledButton a {
+    width: 100px;
+    height: 100px;
+  }
+  .LabeledButton.LabeledButton--small a {
+    width: 60px;
+    height: 60px;
+  }
+  .LabeledButton img {
+    max-width: 40px;
+    max-height: 40px;
+  }
+  .LabeledButton.LabeledButton--small img {
+    max-width: 28px;
+    max-height: 28px;
+  }
+  .LabeledButton__label {
+    margin-top: 12px;
+    font-size: 16px;
+  }
+  .LabeledButton.LabeledButton--small .LabeledButton__label {
+    margin-top: 8px;
+    font-size: 14px;
+  }
 }

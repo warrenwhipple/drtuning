@@ -18,12 +18,27 @@
   flex: 0 0 auto;
   margin-right: 20px;
 }
-.CardScroll__leadingSpacer {
+.CardScroll__inner > .CardScroll__leadingSpacer {
   width: 20px;
   margin-right: 0;
 }
-.CardScroll__trailingSpacer {
+.CardScroll__inner > .CardScroll__trailingSpacer {
   width: 20px;
   margin-left: -20px;
   margin-right: 0;
+}
+
+@media only screen and (min-width: 1025px) {
+  .CardScroll__inner > * {
+    margin-right: 30px;
+  }
+  .CardScroll__inner > .CardScroll__leadingSpacer {
+    width: 30px;
+    margin-right: 0;
+  }
+  .CardScroll__inner > .CardScroll__trailingSpacer {
+    width: 30px;
+    margin-left: -30px;
+    margin-right: 0;
+  }
 }
