@@ -41,10 +41,12 @@ class App extends Component {
               <img src={sideFlourishR} className="flourishImage" alt="" />
             </div>
           </div>
-          <p className="text">
-            I’ve worked in the professional music world more than 30 years as a
-            performer, producer, technician, and piano tuner.
-          </p>
+          <div className="paraWrapper">
+            <div className="para">
+              I’ve worked in the professional music world more than 30 years as
+              a performer, producer, technician, and piano tuner.{' '}
+            </div>
+          </div>
         </div>
         <div className="reviews">
           <h2>Reviews</h2>
@@ -52,10 +54,12 @@ class App extends Component {
         </div>
         <div className="contact">
           <h2>Contact</h2>
-          <p>
-            For any questions, or to set up an appointment, please email, text,
-            or call me.
-          </p>
+          <div className="paraWrapper">
+            <div className="para">
+              For any questions, or to set up an appointment, please email,
+              text, or call me.
+            </div>
+          </div>
           <div className="buttonsWrapper">
             <LabeledButton
               icon={mobileIcon}
@@ -77,21 +81,25 @@ class App extends Component {
         </div>
         <div className="questions">
           <h2>Questions</h2>
-          <p className="question">How often should I tune my piano?</p>
-          <p className="answer">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <p className="question">Why does tuning take so long?</p>
-          <p className="answer">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <p className="question">Why wait between a pitch raise and a tune?</p>
-          <p className="answer">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
+          <div className="paraWrapper">
+            <div className="question">How often should I tune my piano?</div>
+            <div className="answer">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+            <div className="question">Why does tuning take so long?</div>
+            <div className="answer">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+            <div className="question">
+              Why wait between a pitch raise and a tune?
+            </div>
+            <div className="answer">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+          </div>
         </div>
         <div className="links">
           <LabeledButton
