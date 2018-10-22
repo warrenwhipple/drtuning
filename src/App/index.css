@@ -59,6 +59,7 @@ h2::after {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 .bio .flourishWrapper {
   flex: 0 1 60px;
