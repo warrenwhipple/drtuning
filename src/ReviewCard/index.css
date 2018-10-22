@@ -38,7 +38,7 @@
 
 @media only screen and (min-width: 1025px) {
   .ReviewCard {
-    width: 330px;
+    width: 360px;
   }  
   .ReviewCard__image {
     width: 100px;
