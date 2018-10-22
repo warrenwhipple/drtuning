@@ -1,5 +1,7 @@
 .CardScroll {
   overflow-y: hidden;
+  display: flex;
+  justify-content: center;
 }
 .CardScroll__inner {
   display: flex;

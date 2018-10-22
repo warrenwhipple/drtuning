@@ -30,12 +30,16 @@ class App extends Component {
           <p className="locations">Carrboro • Chapel Hill • Durham • Raleigh</p>
         </header>
         <div className="bio">
-          <div className="sideFlourishWrapper">
-            <img src={sideFlourishL} className="sideFlourish L" alt="" />
-            <div className="imageWrapper">
-              <img src="don.jpg" alt="Don Raleigh" />
+          <div className="profileFlourishWrapper">
+            <div className="flourishWrapper">
+              <img src={sideFlourishL} className="flourishImage" alt="" />
             </div>
-            <img src={sideFlourishR} className="sideFlourish R" alt="" />
+            <div className="profileWrapper">
+              <img src="don.jpg" className="profileImage" alt="Don Raleigh" />
+            </div>
+            <div className="flourishWrapper">
+              <img src={sideFlourishR} className="flourishImage" alt="" />
+            </div>
           </div>
           <p className="text">
             I’ve worked in the professional music world more than 30 years as a

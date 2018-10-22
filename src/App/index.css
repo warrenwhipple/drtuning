@@ -43,26 +43,27 @@ h2::after {
   align-items: center;
   margin-top: 20px;
 }
-.bio .sideFlourishWrapper {
-  display: flex;
-  align-items: center;
-}
-.bio .sideFlourish {
-  width: 60px;
-  height: 60px;
-}
-.bio .imageWrapper {
+.bio .profileFlourishWrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 140px;
-  height: 140px;
+}
+.bio .flourishWrapper {
+  flex: 0 1 60px;
+}
+.bio .flourishImage {
+  width: 100%;
+}
+.bio .profileWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
   border: solid #B40E1B 2px;
 }
-.bio .imageWrapper img {
-  width: 128px;
-  height: 128px;
+.bio .profileImage {
+  max-width: 200px;
+  padding: 4px;
   border-radius: 50%;
 }
 .bio .text {
